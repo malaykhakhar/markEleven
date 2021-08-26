@@ -1,5 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 
+:root {
+  --primary-color: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
+  background-image: linear-gradient(#fecaca, #ecfdf5);
   font-family: "Heebo", sans-serif;
+}
+
+.container {
+  margin: 4rem 0rem 4rem;
+  text-align: center;
+}
+
+.heading {
+  color: var(--primary-color);
+}
+
+.input-label {
+  display: block;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.input {
+  outline: white;
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  max-width: 200px;
+}
+
+.check-button {
+  margin: auto;
+  display: block;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: large;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.check-button:hover {
+  color: var(--primary-color);
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  padding: 0.7rem 1rem;
+}
+
+.output {
+  font-size: large;
+  max-width: 500px;
+  margin: 3rem auto;
+}
+
+footer {
+  color: var(--primary-color);
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+}
+
+img,
+li {
+  display: inline;
+  padding: 0.2rem;
+  width: 40px;
+}
+
+.footer-list {
+  margin: 1rem;
 }
