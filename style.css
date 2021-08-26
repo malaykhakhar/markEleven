@@ -10,13 +10,15 @@
   margin: 0;
 }
 
-body {
+html {
   background-image: linear-gradient(#fecaca, #ecfdf5);
+}
+body {
   font-family: "Heebo", sans-serif;
 }
 
 .container {
-  margin: 4rem 0rem 4rem;
+  margin: 6rem 0rem 6rem;
   text-align: center;
 }
 
@@ -25,6 +27,7 @@ body {
 }
 
 .input-label {
+  margin: 1.5rem 0rem;
   display: block;
   font-size: larger;
   font-weight: 600;
@@ -34,14 +37,13 @@ body {
   outline: white;
   font-size: 14px;
   padding: 0.6rem 1rem;
-  margin: 1rem;
   border: 2px solid var(--primary-color);
   border-radius: 1rem;
   max-width: 200px;
 }
 
 .check-button {
-  margin: auto;
+  margin: 2rem auto;
   display: block;
   background-color: var(--primary-color);
   border: none;
@@ -59,7 +61,7 @@ body {
 }
 
 .output {
-  font-size: large;
+  font-size: larger;
   max-width: 500px;
   margin: 3rem auto;
 }
