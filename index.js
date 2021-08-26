@@ -4,7 +4,13 @@ const checkButton = document.querySelector("#check-button");
 const output = document.querySelector(".output");
 
 function compareValues(sum, num) {
-  if (sum % num === 0) {
+
+  console.log(sum);
+  console.log(num);
+
+  if (sum === 0 && num === 0) {
+    output.innerHTML = "Enter both inputs";
+  } else if (sum % num === 0) {
     output.innerHTML = "Yeay! Your birthday is lucky.";
   } else {
     output.innerHTML = "Your birthday is not lucky."
